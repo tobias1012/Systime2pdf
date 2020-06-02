@@ -177,15 +177,9 @@ Session.vim
 .netrwhist
 # Auto-generated tag files
 tags
-# Persistent undo
-[._]*.un~
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
