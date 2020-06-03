@@ -186,3 +186,8 @@ tags
 .history
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,vim,emacs
+
+#All pdf- and html files are to be ignored
+*.pdf
+*.html
+*.pkl
