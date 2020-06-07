@@ -2,18 +2,18 @@
 
 from fpdf import FPDF
 
-from pdfWriter import pdf
 
 
 class TOC:    
-    def __init__(self, name):
+    def __init__(self, name, link = str()):
         self.line = 1
         self.name = name
+        self.link = link
         self.sections = []
-    def addEntry(self, name: str):
+    def addEntry(self, name: str, link: str):
         if(name in self.sections):
             pass
-        self.sections.append(TOC(name))
+        self.sections.append(TOC(name, link = link))
 
     def _createSection(self, size: float, arr, pdf):
         arr.append(self.name)
