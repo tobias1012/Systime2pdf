@@ -12,4 +12,4 @@ you need to be able to log in on systime and have access to the books, then we "
 
 ## Finding Cookies
 
-For the userid and aythtoken you have to get the cookie value for these, these can be found after logged in in developer tools in different browsers.
+For the userid and authtoken you have to get the cookie value for these, these can be found after logged in in developer tools in different browsers.
